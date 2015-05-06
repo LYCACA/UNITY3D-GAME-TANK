@@ -30,7 +30,7 @@ public class MoveAI : MonoBehaviour {
         
         distanceX = Mathf.Abs(tank.transform.position.x - transform.position.x);
         distanceZ = Mathf.Abs(tank.transform.position.z - transform.position.z);
-        if (distanceX < distance && distanceZ < distance)
+     //   if (distanceX < distance && distanceZ < distance)
             if (gameObject.tag == "Enemy")
             {
                 /*if (transform.rotation.eulerAngles.y > 1 && contact == false)
