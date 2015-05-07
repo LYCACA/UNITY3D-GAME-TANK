@@ -76,7 +76,6 @@
      <Compile Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\Triangles.js" />
      <Compile Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\Vignetting.js" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
-     <None Include="Assets\Moba_Camera\Readme\readme.txt" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
