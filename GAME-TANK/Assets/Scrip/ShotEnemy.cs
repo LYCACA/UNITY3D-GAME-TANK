@@ -10,7 +10,7 @@ public class ShotEnemy : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         bulletEnemy = GameObject.Find("BulletEnemy");
-        posBulEnemy = GameObject.Find("PosBullEnemy");
+        posBulEnemy = GameObject.FindWithTag("PosBullEnemy");
 	
 	}
 	

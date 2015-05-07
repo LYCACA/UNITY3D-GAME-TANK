@@ -1,57 +1,195 @@
 Base path: C:/Program Files/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-2756
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-7164
 Cmd: getPlatforms
 Cmd: compileSnippet
-  api=4 type=0 insize=3647 outsize=2737 kw=POINT ok=1
+  api=4 type=0 insize=634333 outsize=24479 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LOD_FADE_CROSSFADE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_LEAF ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=3647 outsize=1932 kw=POINT ok=1
+  api=4 type=1 insize=634333 outsize=4004 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LOD_FADE_CROSSFADE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_LEAF ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=6810 outsize=5491 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON ok=1
+  api=4 type=0 insize=634333 outsize=24983 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LOD_FADE_CROSSFADE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_FACING_LEAF ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1482 outsize=2022 kw=SOFTPARTICLES_ON ok=1
+  api=4 type=1 insize=634333 outsize=4004 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LOD_FADE_CROSSFADE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_FACING_LEAF ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1482 outsize=1656 kw=SOFTPARTICLES_ON ok=1
+  api=4 type=0 insize=634333 outsize=16817 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LOD_FADE_CROSSFADE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_FROND ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=408601 outsize=22895 kw=POINT LOD_FADE_PERCENTAGE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_LEAF ok=1
+  api=4 type=1 insize=634333 outsize=4004 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LOD_FADE_CROSSFADE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_FROND ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=408601 outsize=3525 kw=POINT LOD_FADE_PERCENTAGE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_LEAF ok=1
+  api=4 type=0 insize=634333 outsize=15915 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LOD_FADE_CROSSFADE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_BRANCH ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=408601 outsize=14380 kw=POINT LOD_FADE_PERCENTAGE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_BRANCH_BLEND ok=1
+  api=4 type=1 insize=634333 outsize=3825 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LOD_FADE_CROSSFADE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_BRANCH ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=408601 outsize=3671 kw=POINT LOD_FADE_PERCENTAGE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_BRANCH_BLEND ok=1
+  api=4 type=0 insize=634333 outsize=16118 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LOD_FADE_CROSSFADE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_BRANCH_BLEND ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=408601 outsize=15152 kw=POINT LOD_FADE_PERCENTAGE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_FROND ok=1
+  api=4 type=1 insize=634333 outsize=4150 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LOD_FADE_CROSSFADE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_BRANCH_BLEND ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=408601 outsize=3525 kw=POINT LOD_FADE_PERCENTAGE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_FROND ok=1
+  api=4 type=0 insize=6810 outsize=5101 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=408601 outsize=23342 kw=POINT LOD_FADE_PERCENTAGE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_FACING_LEAF ok=1
+  api=4 type=0 insize=73109 outsize=9976 kw=POINT EFFECT_BUMP EFFECT_HUE_VARIATION BILLBOARD_FACE_CAMERA_POS ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=408601 outsize=3525 kw=POINT LOD_FADE_PERCENTAGE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_FACING_LEAF ok=1
+  api=4 type=1 insize=73109 outsize=3525 kw=POINT EFFECT_BUMP EFFECT_HUE_VARIATION BILLBOARD_FACE_CAMERA_POS ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=408601 outsize=14201 kw=POINT LOD_FADE_PERCENTAGE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_BRANCH ok=1
+  api=4 type=0 insize=116005 outsize=12015 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON EFFECT_BUMP EFFECT_HUE_VARIATION BILLBOARD_FACE_CAMERA_POS ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=408601 outsize=3346 kw=POINT LOD_FADE_PERCENTAGE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_BRANCH ok=1
+  api=4 type=0 insize=73109 outsize=10788 kw=POINT LOD_FADE_CROSSFADE EFFECT_BUMP EFFECT_HUE_VARIATION BILLBOARD_FACE_CAMERA_POS ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1482 outsize=1274 kw=SOFTPARTICLES_OFF ok=1
+  api=4 type=1 insize=73109 outsize=4077 kw=POINT LOD_FADE_CROSSFADE EFFECT_BUMP EFFECT_HUE_VARIATION BILLBOARD_FACE_CAMERA_POS ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1482 outsize=933 kw=SOFTPARTICLES_OFF ok=1
+  api=4 type=0 insize=408601 outsize=22643 kw=POINT EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_LEAF ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=3569 outsize=2737 kw=POINT ok=1
+  api=4 type=1 insize=408601 outsize=3525 kw=POINT EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_LEAF ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=3569 outsize=1932 kw=POINT ok=1
+  api=4 type=0 insize=408601 outsize=23147 kw=POINT EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_FACING_LEAF ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=634333 outsize=25381 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON LOD_FADE_PERCENTAGE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_LEAF ok=1
+  api=4 type=1 insize=408601 outsize=3525 kw=POINT EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_FACING_LEAF ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=634333 outsize=16866 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON LOD_FADE_PERCENTAGE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_BRANCH_BLEND ok=1
+  api=4 type=0 insize=408601 outsize=14981 kw=POINT EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_FROND ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=634333 outsize=17638 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON LOD_FADE_PERCENTAGE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_FROND ok=1
+  api=4 type=1 insize=408601 outsize=3525 kw=POINT EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_FROND ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=634333 outsize=25828 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON LOD_FADE_PERCENTAGE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_FACING_LEAF ok=1
+  api=4 type=0 insize=408601 outsize=14079 kw=POINT EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_BRANCH ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=634333 outsize=16687 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON LOD_FADE_PERCENTAGE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_BRANCH ok=1
+  api=4 type=1 insize=408601 outsize=3346 kw=POINT EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_BRANCH ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=4694 outsize=3939 kw=POINT ok=1
+  api=4 type=0 insize=408601 outsize=14282 kw=POINT EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_BRANCH_BLEND ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=4694 outsize=2720 kw=POINT ok=1
+  api=4 type=1 insize=408601 outsize=3671 kw=POINT EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_BRANCH_BLEND ok=1
+Cmd: preprocess
+  insize=9195 outsize=2321 ok=1
+Cmd: preprocess
+  insize=11276 outsize=717 ok=1
+Cmd: preprocess
+  insize=1209 outsize=458 ok=1
+Cmd: preprocess
+  insize=8652 outsize=772 ok=1
+Cmd: preprocess
+  insize=1685 outsize=352 ok=1
+Cmd: preprocess
+  insize=919 outsize=355 ok=1
+Cmd: preprocess
+  insize=1006 outsize=316 ok=1
+Cmd: preprocess
+  insize=1989 outsize=486 ok=1
+Cmd: preprocess
+  insize=1291 outsize=412 ok=1
+Cmd: preprocess
+  insize=3562 outsize=711 ok=1
+Cmd: preprocess
+  insize=1183 outsize=296 ok=1
+Cmd: preprocess
+  insize=1235 outsize=409 ok=1
+Cmd: preprocess
+  insize=6551 outsize=798 ok=1
+Cmd: preprocess
+  insize=1173 outsize=314 ok=1
+Cmd: preprocess
+  insize=2636 outsize=773 ok=1
+Cmd: preprocess
+  insize=968 outsize=305 ok=1
+Cmd: preprocess
+  insize=1377 outsize=384 ok=1
+Cmd: preprocess
+  insize=1420 outsize=347 ok=1
+Cmd: preprocess
+  insize=1709 outsize=728 ok=1
+Cmd: preprocess
+  insize=1403 outsize=346 ok=1
+Cmd: preprocess
+  insize=1268 outsize=329 ok=1
+Cmd: preprocess
+  insize=2306 outsize=643 ok=1
+Cmd: preprocess
+  insize=965 outsize=271 ok=1
+Cmd: preprocess
+  insize=790 outsize=320 ok=1
+Cmd: preprocess
+  insize=32636 outsize=273 ok=1
+Cmd: preprocess
+  insize=1216 outsize=260 ok=1
+Cmd: preprocess
+  insize=3601 outsize=704 ok=1
+Cmd: preprocess
+  insize=1000 outsize=249 ok=1
+Cmd: preprocess
+  insize=5357 outsize=1799 ok=1
+Cmd: preprocess
+  insize=11420 outsize=1917 ok=1
+Cmd: preprocess
+  insize=1038 outsize=358 ok=1
+Cmd: preprocess
+  insize=6289 outsize=752 ok=1
+Cmd: preprocess
+  insize=2832 outsize=782 ok=1
+Cmd: preprocess
+  insize=8191 outsize=1105 ok=1
+Cmd: preprocess
+  insize=977 outsize=438 ok=1
+Cmd: preprocess
+  insize=13814 outsize=2625 ok=1
+Cmd: preprocess
+  insize=1950 outsize=490 ok=1
+Cmd: preprocess
+  insize=1692 outsize=302 ok=1
+Cmd: preprocess
+  insize=27271 outsize=4693 ok=1
+Cmd: preprocess
+  insize=4106 outsize=553 ok=1
+Cmd: preprocess
+  insize=2274 outsize=1208 ok=1
+Cmd: preprocess
+  insize=1737 outsize=297 ok=1
+Cmd: preprocess
+  insize=1026 outsize=351 ok=1
+Cmd: preprocess
+  insize=1123 outsize=458 ok=1
+Cmd: preprocess
+  insize=738 outsize=267 ok=1
+Cmd: preprocess
+  insize=5837 outsize=873 ok=1
+Cmd: preprocess
+  insize=5846 outsize=801 ok=1
+Cmd: preprocess
+  insize=586 outsize=360 ok=1
+Cmd: preprocess
+  insize=32646 outsize=272 ok=1
+Cmd: preprocess
+  insize=5149 outsize=1741 ok=1
+Cmd: preprocess
+  insize=6801 outsize=255 ok=1
+Cmd: preprocess
+  insize=4528 outsize=555 ok=1
+Cmd: preprocess
+  insize=4925 outsize=1092 ok=1
+Cmd: preprocess
+  insize=5752 outsize=1269 ok=1
+Cmd: preprocess
+  insize=778 outsize=304 ok=1
+Cmd: preprocess
+  insize=721 outsize=317 ok=1
+Cmd: preprocess
+  insize=4076 outsize=684 ok=1
+Cmd: preprocess
+  insize=873 outsize=301 ok=1
+Cmd: preprocess
+  insize=1339 outsize=296 ok=1
+Cmd: preprocess
+  insize=2143 outsize=982 ok=1
+Cmd: preprocess
+  insize=5961 outsize=792 ok=1
+Cmd: preprocess
+  insize=1080 outsize=489 ok=1
+Cmd: preprocess
+  insize=1213 outsize=389 ok=1
+Cmd: preprocess
+  insize=574 outsize=259 ok=1
+Cmd: preprocess
+  insize=724 outsize=315 ok=1
+Cmd: preprocess
+  insize=1727 outsize=682 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=7257 outsize=6661 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON ok=1
+  api=4 type=0 insize=7523 outsize=5093 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7523 outsize=3768 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4918 outsize=3939 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4918 outsize=3630 kw=POINT ok=1

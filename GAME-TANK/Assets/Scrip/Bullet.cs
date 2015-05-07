@@ -13,7 +13,7 @@ public class Bullet : MonoBehaviour {
     {
         if (col.gameObject.tag == "Enemy")
             DestroyObject(col.gameObject);
-        Destroy(this.gameObject);
+        Destroy(gameObject);
     }
     void OnBecameInvisible()
     {
