@@ -9,7 +9,6 @@ public class Shot : MonoBehaviour {
     public string nameBullet="";
 
     public float fireRate = 1F;
-    private float nextFire = 0.0F;
     // Use this for initialization
     void Start()
     {

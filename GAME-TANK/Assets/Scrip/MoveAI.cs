@@ -4,16 +4,15 @@ using System.Collections;
 public class MoveAI : MonoBehaviour {
     public float moveSpeed = 10f;
     public float turnSpeed = 1f;
-    public bool contact = false;
-    public GameObject tank;
-    public float distance = 100;
-    public float distanceX;
-    public float distanceZ;
+    private bool contact = false;
+    private GameObject tank;
+
+    public float rangeAct = 100;
 
     public float fireRate = 5F;
     private float nextFire = 0.0F;
 
-    public int rd;
+    private int rd;
 
    // public int direction=0;
     void Start()
@@ -27,19 +26,12 @@ public class MoveAI : MonoBehaviour {
             nextFire = Time.time + fireRate;
             rd = Random.Range(0, 4);
         }
-        
-        distanceX = Mathf.Abs(tank.transform.position.x - transform.position.x);
-        distanceZ = Mathf.Abs(tank.transform.position.z - transform.position.z);
-        if (distanceX < distance && distanceZ < distance)
+
+        float rangeActX = Mathf.Abs(tank.transform.position.x - transform.position.x);
+        float rangeActZ = Mathf.Abs(tank.transform.position.z - transform.position.z);
+        if (rangeActX < rangeAct && rangeActZ < rangeAct)
             if (gameObject.tag == "Enemy")
-            {
-                /*if (transform.rotation.eulerAngles.y > 1 && contact == false)
-                {                    
-                        transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);                   
-                }
-                else
-                    transform.Rotate(Vector3.up, turnSpeed * Time.deltaTime);
-                */      
+            {  
                 if (rd==0)
                 {
                     transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, 0, 0), turnSpeed * Time.deltaTime);
@@ -66,11 +58,6 @@ public class MoveAI : MonoBehaviour {
                         transform.Translate(Vector3.fwd * moveSpeed * Time.deltaTime);
                 }
             }
-        /*
-         */
-    //    transform.position = new Vector3(transform.position.x, 1f, transform.position.z);
-        /*
-        */
 	}
     void OnCollisionEnter()
     {

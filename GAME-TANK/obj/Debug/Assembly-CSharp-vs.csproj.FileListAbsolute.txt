@@ -1,0 +1,14 @@
+D:\LATN\Unity3D_GAME_TANK\GAME-TANK\Temp\bin\Debug\Assembly-CSharp.dll
+D:\LATN\Unity3D_GAME_TANK\GAME-TANK\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\LATN\Unity3D_GAME_TANK\GAME-TANK\Temp\bin\Debug\UnityEditor.dll
+D:\LATN\Unity3D_GAME_TANK\GAME-TANK\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+D:\LATN\Unity3D_GAME_TANK\GAME-TANK\Temp\bin\Debug\UnityEngine.dll
+D:\LATN\Unity3D_GAME_TANK\GAME-TANK\Temp\bin\Debug\UnityEngine.UI.dll
+D:\LATN\Unity3D_GAME_TANK\GAME-TANK\Temp\bin\Debug\Mono.Cecil.dll
+D:\LATN\Unity3D_GAME_TANK\GAME-TANK\Temp\bin\Debug\Unity.SerializationLogic.dll
+D:\LATN\Unity3D_GAME_TANK\GAME-TANK\Temp\bin\Debug\Unity.DataContract.dll
+D:\LATN\Unity3D_GAME_TANK\GAME-TANK\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+D:\LATN\Unity3D_GAME_TANK\GAME-TANK\Temp\bin\Debug\Unity.CecilTools.dll
+D:\LATN\Unity3D_GAME_TANK\GAME-TANK\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+D:\LATN\Unity3D_GAME_TANK\GAME-TANK\obj\Debug\Assembly-CSharp.dll
+D:\LATN\Unity3D_GAME_TANK\GAME-TANK\obj\Debug\Assembly-CSharp.pdb

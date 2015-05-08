@@ -6,10 +6,13 @@ public class ShotEnemy : MonoBehaviour {
     private GameObject bulletEnemy;
     private Transform posBulEnemy;
 
+    public float range = 50;
     public string butlletName = null;
 
     private float fireRate = 1F;
     private float nextFire = 0.0F;
+
+    private GameObject tank;
     // Use this for initialization
     void Start()
     {
@@ -22,12 +25,15 @@ public class ShotEnemy : MonoBehaviour {
                 posBulEnemy = t;
             }
         }
+        tank = GameObject.Find("Target");   
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        float rangeX = Mathf.Abs(tank.transform.position.x - transform.position.x);
+        float rangeZ = Mathf.Abs(tank.transform.position.z - transform.position.z);
+        if (rangeX < range && rangeZ < range)
         if (Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
