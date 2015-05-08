@@ -3,16 +3,18 @@ using System.Collections;
 
 public class Bullet : MonoBehaviour {
 
+    public string bulletName = "";
+
+    public float moveSpeed=1;
+
     void Update()
     {
 
-        if (this.name != "Bullet")
-            transform.position += new Vector3(transform.forward.x / 1, 0, transform.forward.z / 1);
+        if (this.name != bulletName)
+            transform.position += new Vector3(transform.forward.x * moveSpeed, 0, transform.forward.z * moveSpeed);
     }
     void OnCollisionEnter(Collision col)
-    {
-        if (col.gameObject.tag == "Enemy")
-            DestroyObject(col.gameObject);
+    {        
         Destroy(gameObject);
     }
     void OnBecameInvisible()
