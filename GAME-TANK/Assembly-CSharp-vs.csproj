@@ -46,9 +46,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\MoveAIType1.cs" />
      <Compile Include="Assets\Scrip\Bullet.cs" />
      <Compile Include="Assets\Scrip\CameraMoveScrip.cs" />
-     <Compile Include="Assets\Scrip\HP.cs" />
+     <Compile Include="Assets\Scrip\HPEnemy.cs" />
+     <Compile Include="Assets\Scrip\HPPlayer.cs" />
      <Compile Include="Assets\Scrip\LookAtScrip.cs" />
      <Compile Include="Assets\Scrip\LookAtTarget.cs" />
      <Compile Include="Assets\Scrip\MoveAI.cs" />
