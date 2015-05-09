@@ -3,10 +3,9 @@ using System.Collections;
 
 public class Bullet : MonoBehaviour {
 
-    public string bulletName = "";
-
+    public string bulletName = null;
     public float moveSpeed=1;
-
+    
     void Update()
     {
 
