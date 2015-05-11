@@ -46,24 +46,27 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Info.cs" />
-     <Compile Include="Assets\Rotation.cs" />
+     <Compile Include="Assets\ItemMissile.cs" />
+     <Compile Include="Assets\Score.cs" />
      <Compile Include="Assets\Scrip\Bullet.cs" />
      <Compile Include="Assets\Scrip\CameraMoveScrip.cs" />
-     <Compile Include="Assets\Scrip\HPEnemy.cs" />
-     <Compile Include="Assets\Scrip\HPPlayer.cs" />
+     <Compile Include="Assets\Scrip\Enemy.cs" />
+     <Compile Include="Assets\Scrip\EnemyShot.cs" />
+     <Compile Include="Assets\Scrip\Explosie.cs" />
+     <Compile Include="Assets\Scrip\Info.cs" />
      <Compile Include="Assets\Scrip\ItemHP.cs" />
-     <Compile Include="Assets\Scrip\LookAtScrip.cs" />
-     <Compile Include="Assets\Scrip\LookAtTarget.cs" />
-     <Compile Include="Assets\Scrip\MoveAI.cs" />
-     <Compile Include="Assets\Scrip\MoveAIType1.cs" />
-     <Compile Include="Assets\Scrip\MoveAIType2.cs" />
-     <Compile Include="Assets\Scrip\MoveScrip.cs" />
-     <Compile Include="Assets\Scrip\MoveScrip3.cs" />
+     <Compile Include="Assets\Scrip\LookAtMouse.cs" />
+     <Compile Include="Assets\Scrip\LookAtPlayer.cs" />
+     <Compile Include="Assets\Scrip\MoveAI1.cs" />
+     <Compile Include="Assets\Scrip\MoveAI2.cs" />
+     <Compile Include="Assets\Scrip\Player.cs" />
+     <Compile Include="Assets\Scrip\PlayerMove.cs" />
+     <Compile Include="Assets\Scrip\PlayerRotations.cs" />
+     <Compile Include="Assets\Scrip\PlayerShot.cs" />
      <Compile Include="Assets\Scrip\RandomPosition.cs" />
-     <Compile Include="Assets\Scrip\RotationsScrip.cs" />
-     <Compile Include="Assets\Scrip\Shot.cs" />
-     <Compile Include="Assets\Scrip\ShotEnemy.cs" />
+     <Compile Include="Assets\Scrip\Rotation.cs" />
+     <Compile Include="Assets\Scrip\SightMouse.cs" />
+     <Compile Include="Assets\Scrip\SliderHP.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
