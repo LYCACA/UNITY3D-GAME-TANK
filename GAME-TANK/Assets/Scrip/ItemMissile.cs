@@ -14,7 +14,7 @@ public class ItemMissile : MonoBehaviour {
         if (coll.gameObject.tag == "Player")
         {
             Destroy(gameObject);
-            missile = +5;
+            missile += 10;
         }
     }  
 }

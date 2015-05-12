@@ -28,8 +28,11 @@ public class Bullet : MonoBehaviour {
         Destroy(gameObject);
         Instantiate(explosive, transform.position, Quaternion.Euler(90, 0, 0));        
     }
+
+    /*
     void OnBecameInvisible()
     {
         Destroy(gameObject);
     }
+    */
 }
