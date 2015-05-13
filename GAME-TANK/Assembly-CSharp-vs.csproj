@@ -46,15 +46,15 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\HPEnemy.cs" />
-     <Compile Include="Assets\MoveScrip.cs" />
      <Compile Include="Assets\Scrip\Bullet.cs" />
      <Compile Include="Assets\Scrip\CameraMoveScrip.cs" />
      <Compile Include="Assets\Scrip\Dead.cs" />
      <Compile Include="Assets\Scrip\Enemy.cs" />
      <Compile Include="Assets\Scrip\EnemyShot.cs" />
      <Compile Include="Assets\Scrip\Explosie.cs" />
+     <Compile Include="Assets\Scrip\HPEnemy.cs" />
      <Compile Include="Assets\Scrip\Info.cs" />
+     <Compile Include="Assets\Scrip\ItemFenix.cs" />
      <Compile Include="Assets\Scrip\ItemHP.cs" />
      <Compile Include="Assets\Scrip\ItemMissile.cs" />
      <Compile Include="Assets\Scrip\LookAtMouse.cs" />
@@ -63,10 +63,13 @@
      <Compile Include="Assets\Scrip\Missile.cs" />
      <Compile Include="Assets\Scrip\MoveAI1.cs" />
      <Compile Include="Assets\Scrip\MoveAI2.cs" />
+     <Compile Include="Assets\Scrip\MoveAI3.cs" />
+     <Compile Include="Assets\Scrip\MoveScrip.cs" />
      <Compile Include="Assets\Scrip\Player.cs" />
      <Compile Include="Assets\Scrip\PlayerMove.cs" />
      <Compile Include="Assets\Scrip\PlayerRotations.cs" />
      <Compile Include="Assets\Scrip\PlayerShot.cs" />
+     <Compile Include="Assets\Scrip\Protective.cs" />
      <Compile Include="Assets\Scrip\RandomPosition.cs" />
      <Compile Include="Assets\Scrip\Rotation.cs" />
      <Compile Include="Assets\Scrip\Score.cs" />

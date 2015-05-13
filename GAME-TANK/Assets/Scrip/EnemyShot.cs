@@ -35,11 +35,11 @@ public class EnemyShot : MonoBehaviour
         float rangeX = Mathf.Abs(tank.transform.position.x - transform.position.x);
         float rangeZ = Mathf.Abs(tank.transform.position.z - transform.position.z);
         if (rangeX < range && rangeZ < range)
-        if (Time.time > nextFire)
-        {
-            nextFire = Time.time + fireRate;
-            Shoot();
-        }
+            if (Time.time > nextFire)
+            {
+                nextFire = Time.time + fireRate;
+                Shoot();
+            }
     }
     public void Shoot()
     {

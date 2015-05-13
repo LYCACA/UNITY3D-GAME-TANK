@@ -16,6 +16,10 @@ public class Player : MonoBehaviour {
 
     public GameObject smoke;
     private Vector3 posSmoke;
+
+    private float fireRate = 20F;
+    private float nextFire = 0.0F;
+
     void Start()
     {
         smoke = GameObject.Find("Smoke");
@@ -27,7 +31,27 @@ public class Player : MonoBehaviour {
             smoke.transform.position = transform.position;
         else
             smoke.transform.position = posSmoke;
-        print(Info.hp);
+       // print(Info.hp);
+
+        /*
+         *Protective 
+         */
+        if (ItemFenix.isProtective == true)
+        {
+            GameObject.Find("Protective").transform.position = transform.position;
+            
+        }
+        if (ItemFenix.resetProtective == true)
+        {
+            nextFire = Time.time + fireRate;
+            ItemFenix.resetProtective = false;
+        }        
+        if (Time.time > nextFire)
+        {
+            nextFire = Time.time + fireRate;
+            GameObject.Find("Protective").transform.position = new Vector3(-177f, 20f, -131f);
+            ItemFenix.isProtective = false;
+        }
     }
     void OnCollisionEnter(Collision col)
     {

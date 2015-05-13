@@ -31,7 +31,7 @@ public class Enemy : MonoBehaviour {
         /*
          * Random item
          */
-        rd = Random.Range(1, 10);
+        rd = Random.Range(3, 3);
         item1 = GameObject.Find(nameItem1);
         item2 = GameObject.Find(nameItem2);
         item3 = GameObject.Find(nameItem3);
@@ -49,6 +49,10 @@ public class Enemy : MonoBehaviour {
     void OnCollisionEnter(Collision col)
     {
         Vector3 pos = new Vector3(transform.position.x, 1f, transform.position.z);
+
+        /*
+         * Damage
+         */
         if (col.gameObject.tag == Info.nameBullet)
         {
             if (Info.nameBullet == "Bullet_Type1")
