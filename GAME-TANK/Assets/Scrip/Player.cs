@@ -21,6 +21,14 @@ public class Player : MonoBehaviour {
         smoke = GameObject.Find("Smoke");
         posSmoke = smoke.transform.position;
     }
+    void Update()
+    {
+        if (Info.hp > 0 && Info.hp < 50)
+            smoke.transform.position = transform.position;
+        else
+            smoke.transform.position = posSmoke;
+        print(Info.hp);
+    }
     void OnCollisionEnter(Collision col)
     {
         if (col.gameObject.tag == nameTagBullet2)
@@ -45,11 +53,6 @@ public class Player : MonoBehaviour {
         }
 
         if (Info.hp <= 0)
-            DestroyObject(this.gameObject);
-        if (Info.hp > 0 && Info.hp < 50)
-            smoke.transform.position = transform.position;
-        else
-            smoke.transform.position = posSmoke;
-        print(Info.hp);
+            DestroyObject(this.gameObject);        
     }
 }

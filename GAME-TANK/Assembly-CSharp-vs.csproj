@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\HPEnemy.cs" />
+     <Compile Include="Assets\MoveScrip.cs" />
      <Compile Include="Assets\Scrip\Bullet.cs" />
      <Compile Include="Assets\Scrip\CameraMoveScrip.cs" />
      <Compile Include="Assets\Scrip\Dead.cs" />
@@ -58,6 +59,7 @@
      <Compile Include="Assets\Scrip\ItemMissile.cs" />
      <Compile Include="Assets\Scrip\LookAtMouse.cs" />
      <Compile Include="Assets\Scrip\LookAtPlayer.cs" />
+     <Compile Include="Assets\Scrip\MessageExit.cs" />
      <Compile Include="Assets\Scrip\Missile.cs" />
      <Compile Include="Assets\Scrip\MoveAI1.cs" />
      <Compile Include="Assets\Scrip\MoveAI2.cs" />
@@ -70,6 +72,11 @@
      <Compile Include="Assets\Scrip\Score.cs" />
      <Compile Include="Assets\Scrip\SightMouse.cs" />
      <Compile Include="Assets\Scrip\SliderHP.cs" />
+     <Compile Include="Assets\Scripts\AIscript.cs" />
+     <Compile Include="Assets\Scripts\BulletScript.cs" />
+     <Compile Include="Assets\Scripts\PhysicsObjectScript.cs" />
+     <Compile Include="Assets\Scripts\ScripMenu.cs" />
+     <Compile Include="Assets\Scripts\VariableScript.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
