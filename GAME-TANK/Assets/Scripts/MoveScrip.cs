@@ -13,14 +13,11 @@ public class MoveScrip : MonoBehaviour {
        
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
-            transform.rotation = Quaternion.Slerp(transform.rotation,
-                                                Quaternion.Euler(0, 270, 0),
-                                                5 * Time.deltaTime);
+            transform.rotation = Quaternion.Slerp(transform.rotation,Quaternion.Euler(0, 270, 0),5 * Time.deltaTime);
             if (transform.rotation.eulerAngles.y > 250 && transform.rotation.eulerAngles.y < 290 ||
                 transform.rotation.eulerAngles.y > 215 && transform.rotation.eulerAngles.y < 235 ||
                 transform.rotation.eulerAngles.y > 305 && transform.rotation.eulerAngles.y < 325)
                         rigidbody.MovePosition(rigidbody.position - Vector3.right * speed * Time.deltaTime);
-
         }
         if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {

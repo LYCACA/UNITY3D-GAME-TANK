@@ -29,9 +29,8 @@ public class Enemy : MonoBehaviour {
     { 
         dead = GameObject.Find("Dead");
         /*
-         * Random item
-         */
-        rd = Random.Range(3, 3);
+         * item
+         */        
         item1 = GameObject.Find(nameItem1);
         item2 = GameObject.Find(nameItem2);
         item3 = GameObject.Find(nameItem3);
@@ -48,6 +47,7 @@ public class Enemy : MonoBehaviour {
     }
     void OnCollisionEnter(Collision col)
     {
+        rd = Random.Range(1, 10);
         Vector3 pos = new Vector3(transform.position.x, 1f, transform.position.z);
 
         /*
@@ -58,7 +58,7 @@ public class Enemy : MonoBehaviour {
             if (Info.nameBullet == "Bullet_Type1")
                 damage = 5;
             else if (Info.nameBullet == "Missile")
-                damage = 20;
+                damage = 10;
             hp = hp - damage;
             
         }
