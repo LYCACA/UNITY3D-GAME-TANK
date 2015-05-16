@@ -2,15 +2,18 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class ScripMenu : MonoBehaviour {
+public class StartGame : MonoBehaviour
+{
 
     public GameObject UIMessageExit;
     public GameObject UIMainMenu;
     public GameObject UIMenuHelp;
+    
     public Slider Slider;
 
     private Animator animatorUIMainMenu;
     private Animator animatorUIMenuHelp;
+    
 
     private float HEALTH = 100;
 
@@ -19,11 +22,12 @@ public class ScripMenu : MonoBehaviour {
     {
         animatorUIMainMenu = UIMainMenu.GetComponent<Animator>();
         animatorUIMenuHelp = UIMenuHelp.GetComponent<Animator>();
+        
     }
-    
-    public void Update ()
+
+    public void Update()
     {
-        //Slider.value = HEALTH;
+        
     }
 
     public void OnClickPlay ()
@@ -31,6 +35,7 @@ public class ScripMenu : MonoBehaviour {
         Debug.Log("play");
         animatorUIMainMenu.SetBool("IsOpen", false);
         //UIMainMenu.animation;
+        //Destroy(gameObject);
         Application.LoadLevel("Map01");
     }
 
@@ -52,4 +57,6 @@ public class ScripMenu : MonoBehaviour {
     {
         Instantiate(UIMessageExit);
     }
+
+
 }

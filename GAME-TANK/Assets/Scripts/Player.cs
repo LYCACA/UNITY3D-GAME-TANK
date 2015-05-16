@@ -17,7 +17,7 @@ public class Player : MonoBehaviour {
     public GameObject smoke;
     private Vector3 posSmoke;
 
-    private float fireRate = 20F;
+    private float fireRate = 10F;
     private float nextFire = 0.0F;
 
     void Start()
@@ -77,6 +77,9 @@ public class Player : MonoBehaviour {
         }
 
         if (Info.hp <= 0)
-            DestroyObject(this.gameObject);        
+        {
+            DestroyObject(this.gameObject);
+            StopGame.ISLOST = true;
+        }
     }
 }

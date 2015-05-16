@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ItemMissile : MonoBehaviour {
 
-    public static float missile;
+    public static float missile=10;
     public void Update()
     {
         if (gameObject.name == "Missile_MBDA_Meteor(Clone)")

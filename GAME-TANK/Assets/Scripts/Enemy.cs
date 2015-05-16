@@ -53,14 +53,15 @@ public class Enemy : MonoBehaviour {
         /*
          * Damage
          */
-        if (col.gameObject.tag == Info.nameBullet)
+        if (col.gameObject.tag == "Bullet_Type1")
+        {           
+            damage = 5;           
+            hp = hp - damage;            
+        }
+        else if (col.gameObject.tag == "Missile")
         {
-            if (Info.nameBullet == "Bullet_Type1")
-                damage = 5;
-            else if (Info.nameBullet == "Missile")
-                damage = 10;
-            hp = hp - damage;
-            
+            damage = 20;
+            hp = hp - damage;   
         }
 
         /*
@@ -103,7 +104,6 @@ public class Enemy : MonoBehaviour {
             if(isScore==true)
                 Info.score +=score;
             isScore = false;
-            
         }
     }
 }

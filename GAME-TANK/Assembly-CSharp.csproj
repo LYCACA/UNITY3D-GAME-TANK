@@ -51,8 +51,9 @@
      <Compile Include="Assets\Scripts\BulletScript.cs" />
      <Compile Include="Assets\Scripts\CameraMoveScrip.cs" />
      <Compile Include="Assets\Scripts\Dead.cs" />
+     <Compile Include="Assets\Scripts\Die.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
-     <Compile Include="Assets\Scripts\EnemyShot.cs" />
+     <Compile Include="Assets\Scripts\EnemyShoot.cs" />
      <Compile Include="Assets\Scripts\Explosie.cs" />
      <Compile Include="Assets\Scripts\HPEnemy.cs" />
      <Compile Include="Assets\Scripts\Info.cs" />
@@ -79,7 +80,10 @@
      <Compile Include="Assets\Scripts\ScripMenu.cs" />
      <Compile Include="Assets\Scripts\SightMouse.cs" />
      <Compile Include="Assets\Scripts\SliderHP.cs" />
+     <Compile Include="Assets\Scripts\StartGame.cs" />
+     <Compile Include="Assets\Scripts\StopGame.cs" />
      <Compile Include="Assets\Scripts\VariableScript.cs" />
+     <Compile Include="Assets\Scripts\Volum.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
