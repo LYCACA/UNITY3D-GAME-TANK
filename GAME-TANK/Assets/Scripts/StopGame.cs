@@ -20,6 +20,9 @@ public class StopGame : MonoBehaviour
     private Animator animatorUIWin;
     private AudioSource auWin, auLost;
 
+    public GameObject e;
+
+
     
 	// Use this for initialization
     void Start()
@@ -30,6 +33,8 @@ public class StopGame : MonoBehaviour
         animatorUIWin = UIWin.GetComponent<Animator>();
         auWin = win.GetComponent<AudioSource>();
         auLost = lost.GetComponent<AudioSource>();
+
+
     }
 	
 	// Update is called once per frame
@@ -41,6 +46,8 @@ public class StopGame : MonoBehaviour
             auWin.Play();
             animatorUIMenu.SetBool("IsOpen", false);
             animatorUIWin.SetBool("IsWin", true);
+
+            DeleteAll();
         }
         if (ISLOST == true)
         {
@@ -82,5 +89,14 @@ public class StopGame : MonoBehaviour
         animatorUIMenu.SetBool("IsOpen", false);
         Instantiate(UIExit);
     }
+    public void DeleteAll()
+    {
+        foreach (GameObject o in GameObject.FindGameObjectsWithTag("Enemy"))
+        {
+            Destroy(o,1);
+            Instantiate(e, o.transform.position, o.transform.rotation);
+        }
+    }
+
 }
 //Chiến thắng

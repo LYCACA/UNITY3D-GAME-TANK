@@ -4,26 +4,44 @@ using System.Collections;
 public class PlayerShot : MonoBehaviour
 {
 
-    private GameObject bullet;
+    public GameObject bullet;
+    public GameObject missile;
     private GameObject posBul;
     private AudioSource tank;
+    private GameObject bulletEnemy;
 
-    public string nameBulletDefault=null;
+    private float fireRate = 0.2F;
+    private float nextFire = 0.0F;
+
+    private bool isShooting = false;
     // Use this for initialization
     void Start()
     {
         tank = GameObject.Find("Tank").GetComponent<AudioSource>();
         posBul = GameObject.Find("PosGun");
-
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (Time.time > nextFire)
+        {
+            nextFire = Time.time + fireRate;
+            if (isShooting)
+            {
+                bulletEnemy = bullet;
+                Shoot();
+            }                
+        }
+        if (Input.GetButton("Fire1"))
+        {
+            isShooting = true;
+        }
+        else
+            isShooting = false;
         if (Input.GetButtonDown("Fire1"))
         {
-            bullet = GameObject.Find(nameBulletDefault);
+            bulletEnemy = bullet;
             Shoot();
         }
         if (Input.GetButtonDown("Fire2"))
@@ -31,17 +49,15 @@ public class PlayerShot : MonoBehaviour
             if (ItemMissile.missile > 0)
             {
                 ItemMissile.missile--;
-                bullet = GameObject.Find("Missile");
+                bulletEnemy = missile;
                 Shoot();
             }
-            
-            
         }
     }
     public void Shoot()
     {
         tank.Play();
         Vector3 posBullet = new Vector3(posBul.transform.position.x, posBul.transform.position.y, posBul.transform.position.z);
-        Instantiate(bullet, posBullet, posBul.transform.rotation);
+        Instantiate(bulletEnemy, posBullet, posBul.transform.rotation);
     }
 }

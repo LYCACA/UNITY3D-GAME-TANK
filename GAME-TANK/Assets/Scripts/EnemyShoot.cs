@@ -4,11 +4,10 @@ using System.Collections;
 public class EnemyShoot : MonoBehaviour
 {
 
-    private GameObject bulletEnemy;
+    public GameObject bulletEnemy;
     private Transform posBulEnemy;
 
     public float range = 32;
-    public string butlletName = null;
 
     private float fireRate = 2F;
     private float nextFire = 0.0F;
@@ -17,7 +16,6 @@ public class EnemyShoot : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        bulletEnemy = GameObject.Find(butlletName);
         Transform[] transforms = this.gameObject.GetComponentsInChildren<Transform>();
         foreach (Transform t in transforms)
         {

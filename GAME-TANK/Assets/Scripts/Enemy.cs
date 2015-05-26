@@ -9,13 +9,10 @@ public class Enemy : MonoBehaviour {
 
     private GameObject dead;
     
-    private GameObject item1;
-    private GameObject item2;
-    private GameObject item3;
+    public GameObject item1;
+    public GameObject item2;
+    public GameObject item3;
 
-    public string nameItem1 = "Oil_Barrell";
-    public string nameItem2 = "Missile_MBDA_Meteor";
-    public string nameItem3 = "Fenix";
 
     private int rd;
     private bool isItem = true;
@@ -25,15 +22,11 @@ public class Enemy : MonoBehaviour {
 
     private GameObject hpEnemy;
     private GameObject hPMax;
+
+    public GameObject explosion;
     void Start()
     { 
         dead = GameObject.Find("Dead");
-        /*
-         * item
-         */        
-        item1 = GameObject.Find(nameItem1);
-        item2 = GameObject.Find(nameItem2);
-        item3 = GameObject.Find(nameItem3);
         
 
     }
@@ -100,6 +93,7 @@ public class Enemy : MonoBehaviour {
             /*
              * score
              */
+            Destroy(Instantiate(explosion, transform.position, transform.rotation),3);
            
             if(isScore==true)
                 Info.score +=score;

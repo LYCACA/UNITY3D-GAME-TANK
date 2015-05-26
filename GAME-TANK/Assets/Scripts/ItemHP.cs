@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class ItemHP : MonoBehaviour {
-    public float hp=5;
+    private float hp=30;
     public void Update()
     {
         if (gameObject.name == "Oil_Barrell(Clone)")

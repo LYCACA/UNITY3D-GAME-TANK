@@ -8,13 +8,7 @@ public class Bullet : MonoBehaviour {
     public float damage=1;
     public float length = 2f;
 
-    private GameObject explosive;
-    public string nameExplosive = "Explosie";
-
-    void Start()
-    {
-        explosive = GameObject.Find(nameExplosive);
-    }
+    public GameObject explosive;
     void Update()
     {
 
@@ -29,10 +23,4 @@ public class Bullet : MonoBehaviour {
         Instantiate(explosive, transform.position, Quaternion.Euler(90, 0, 0));        
     }
 
-    /*
-    void OnBecameInvisible()
-    {
-        Destroy(gameObject);
-    }
-    */
 }
